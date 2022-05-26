@@ -178,8 +178,8 @@ img{
 }
 
 .news-item{
-  padding: 0;
   margin: 0;
+  padding: 20px 18px 15px 17px;
   margin-bottom: 10px;
   background: #F6F6F6;
   border-radius: 15px;
@@ -200,13 +200,7 @@ img{
 
 .news-content{
   margin-bottom: 15px;
-  padding-top: 20px;
-  padding-right: 25px;
-  padding-bottom: 15px;
-  padding-left: 17px;
-  
 }
-
 
 .news-tittle{
   display: block;
@@ -218,9 +212,7 @@ img{
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  /* or 130% */
-  
-  
+
   color: #000000;
 }
 
@@ -242,7 +234,6 @@ img{
 .news-link{
   width: 359px;
   height: 165px;
-  padding: 16px;
   border-radius: 10px;
 }
 
@@ -250,12 +241,12 @@ img{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: 15px 10px 0 0;
   
 }
 
 .source-logo{
-  margin: 16px;
+  margin-right: 10px ;
   width: 20px;
   border-radius: 5px;
 }
@@ -525,7 +516,7 @@ img{
 
 
 .site-footer{
-  
+
   background-color: #7297EF;
 }
 
@@ -533,12 +524,11 @@ img{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
   margin:0 auto ;
+  padding-top: 40px;
 }
 
 .site-elements{
-  padding-top: 40px;
   padding-bottom: 30px;
   flex-direction: column;
   width: 265px;
@@ -553,12 +543,12 @@ img{
 
 .about-site-text{
   margin: 0;
+  padding-bottom: 30px;
 }
 
 .site-services{
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 500px;
   text-decoration: none;
   list-style: none;
@@ -583,7 +573,7 @@ img{
 }
 
 .site-service{
-  
+
   margin: 0;
   padding: 0;
   
@@ -593,14 +583,13 @@ img{
   
   margin-bottom: 20px;
   list-style: none;
-  width: 167px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
 }
-.act-network{
-padding-top: 83px;}
+
 
 .network-link{
   list-style: none;
@@ -662,16 +651,11 @@ padding-top: 83px;}
   justify-content:space-between;
   flex-direction: row;
   align-items: center;
-  width: 150px;
   margin: 0;
-  margin-right:80px;
+  padding: 0;
 }
 .network-item{
 
   list-style: none;
-
-  margin-left: 25px;
-}
- .act-item{
-
+margin-right: 25px;
 }
