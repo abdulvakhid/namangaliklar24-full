@@ -1,0 +1,177 @@
+.contact {
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.title-contract {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-content {
+    display: flex;
+
+    margin: 0;
+}
+
+.box-name {
+
+    background: #FFFFFF;
+    margin-right: 10px;
+    outline: none;
+}
+
+
+.box-phone {
+    width: 343px;
+}
+
+.form-input {
+    width: 343px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 18px 20px;
+    padding-right: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.form-email-input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.form-textarea {
+    width: 100%;
+    padding-top: 18px;
+    padding-left: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    border-radius: 10px;
+    outline: none;
+    resize: none;
+}
+
+
+
+
+.name-contact {
+    margin: 0;
+}
+
+
+
+
+.section-contact-end-list {
+    margin: 0;
+    padding: 40px 25px 40px 25px;
+    background: #F6F6F6;
+    border-radius: 10px;
+}
+
+.contact-item {
+    width: 444px;
+    margin: 0;
+    margin-bottom: 28px;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+
+}
+
+.name-contact {
+    margin: 0;
+    margin-bottom: 10px;
+    /* margin-top: 20px; */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.name-contact-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+
+}
+
+.pochta {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
+:nth-child(3) {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+
+.adress-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 17px 30px;
+    width: 145px;
+    background: #7297EF;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}

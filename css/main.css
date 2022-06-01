@@ -1,3 +1,32 @@
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v20-latin_cyrillic-regular.woff2') format('woff2'), 
+       url('../fonts/rubik-v20-latin_cyrillic-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/rubik-v20-latin_cyrillic-500.woff2') format('woff2'), 
+       url('../fonts/rubik-v20-latin_cyrillic-500.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rubik-v20-latin_cyrillic-700.woff2') format('woff2'), 
+       url('../fonts/rubik-v20-latin_cyrillic-700.woff') format('woff'); 
+}
+
+
+
+
+
 *{
   box-sizing: border-box;
 }
@@ -5,6 +34,7 @@
 body{
   margin: 0;
   font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 400;
 }
 img{
   vertical-align: middle;
@@ -36,6 +66,8 @@ img{
   display: flex;
   align-items: center;
 }
+.site-logo{
+margin-right: 35px;}
 
 .currency-list{
   display: flex;
@@ -50,20 +82,29 @@ img{
   font-size: 16px;
   line-height: 19px;
   color: #555;
-}
-
-
-.first-symbol{
+  position: relative;
   margin-right: 25px;
-  margin-left: 35px;
+}
+ 
+.currency-item::before{
+  position: absolute;
+  display: block;
+content: "$";
+color: #2959CE;
+top: 0px;
+left: -15px;
 }
 
-.currency-symbol{
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 19px;
-  color: #2959CE;
+.rubl-symbol::before{
+  position: absolute;
+  display: block;
+content: "P";
+color: #2959CE;
+top: 0px;
+left: -15px;
 }
+
+
 
 
 .header-top-end{
@@ -71,7 +112,7 @@ img{
   align-items: center;
 }
 
-.search-box{
+.search-input{
   width: 275px;
   margin-right: 25px;
   padding-top: 15px;
@@ -83,6 +124,15 @@ img{
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+  outline: none;
+  border: #fff;
+}
+
+.search-input::before{
+  display: block;
+content:url("../pictures/Mask.svg");
+
+
 }
 
 .site-languages{
@@ -142,6 +192,7 @@ img{
   border-bottom:  1px solid #D1D1D1;
   list-style: none;
 }
+
 
 .nav-link{
   font-weight: 500;
