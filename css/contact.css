@@ -73,8 +73,8 @@
 
 .form-textarea {
     width: 100%;
-    padding-top: 18px;
-    padding-left: 20px;
+    padding: 18px 20px;
+
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
